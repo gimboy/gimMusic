@@ -1,9 +1,9 @@
 <!doctype html>
 
 
-<html lang="en" class="no-js">
+<html xmlns:th="http://www.thymeleaf.org" lang="en" class="no-js">
 <head>
-	<title>Royarch</title>
+	<title>GimMusic</title>
 
 	<meta charset="utf-8">
 
@@ -56,91 +56,7 @@
 
 		<!-- Header
 		    ================================================== -->
-		<header class="clearfix">
-
-			<div class="logo">
-				<a href="index.html"><img src="images/logo-image.png" alt=""></a>
-			</div>
-
-			<div class="header-line">
-				<a class="open-menu-toggle" href="#">
-					<span></span>
-					<span></span>
-					<span></span>
-				</a>
-				<div class="social-line">
-					<ul class="social-list">
-						<li>
-							<a href="#"><i class="fab fa-facebook-square"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-instagram"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-twitter-square"></i></a>
-						</li>
-					</ul>
-				</div>
-				<div class="copyright-line">
-					<p>© Royarch 2021</p>
-				</div>
-			</div>
-
-			<nav class="nav-menu-box">
-				<ul class="navigation-menu-list">
-					<li class="menu-item-has-children">
-						<a href="index.html"><span><em>Home</em></span></a>
-						<ul class="sub-menu">
-							<li><a href="index.html">Home 1</a></li>
-							<li><a href="home2.html">Home 2</a></li>
-							<li><a href="home3.html">Home 3</a></li>
-							<li><a href="home4.html">Home 4</a></li>
-							<li><a href="home5.html">Home 5</a></li>
-							<li><a href="home6.html">Home 6</a></li>
-							<li><a href="home7.html">Home 7</a></li>
-							<li><a href="home8.html">Home 8</a></li>
-							<li><a href="home9.html">Home 9</a></li>
-							<li><a href="home10.html">Home 10</a></li>
-							<li><a href="home11.html">Home 11</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="portfolio.html"><span><em>Work</em></span></a>
-						<ul class="sub-menu">
-							<li><a href="portfolio.html">Work default</a></li>
-							<li><a href="portfolio-fullscreen-3col.html">Work 3 col</a></li>
-							<li><a href="portfolio-fullscreen-4col.html">Work 4 col</a></li>
-							<li><a href="portfolio-fullscreen-5col.html">Work 5 col</a></li>
-							<li><a href="portfolio-joined.html">Work Joined</a></li>
-							<li><a href="portfolio-combined.html">Work combined</a></li>
-							<li><a href="portfolio-alt.html">Work alternative</a></li>
-							<li><a href="single-project.html">Project page 1</a></li>
-							<li><a href="single-project2.html">Project page 2</a></li>
-							<li><a href="single-project3.html">Project page 3</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="about.html"><span><em>About</em></span></a>
-						<ul class="sub-menu">
-							<li><a href="about.html">About 1</a></li>
-							<li><a href="about2.html">About 2</a></li>
-							<li><a href="services.html">Services</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children active">
-						<a href="blog.html"><span><em>Blog</em></span></a>
-						<ul class="sub-menu">
-							<li><a href="blog.html">Blog Grid</a></li>
-							<li><a href="blog-list.html">Blog List</a></li>
-							<li><a href="single-post.html">Single Post</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="contact.html"><span><em>Contact</em></span></a>
-					</li>
-				</ul>
-			</nav>
-
+		<header th:insert="blocks/header::header">
 		</header>
 		<!-- End Header -->
 
@@ -150,11 +66,11 @@
 			<div class="info-box">
 				<p>
 					<i class="fa fa-phone-square"></i>
-					+1 234 5678 90 00
+					+7 912 439 74 21
 					<span class="divider-line"></span>
 
 					<i class="fa fa-envelope-square"></i>
-					royarch@domain.com
+					gimboytimur09@mail.ru
 				</p>
 			</div>
 
